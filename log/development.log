@@ -2909,3 +2909,10 @@ Processing by CiberSecController#index as HTML
 Completed 200 OK in 1609ms (Views: 1592.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 21:51:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 3959ms (Views: 3938.0ms | ActiveRecord: 0.0ms)
+
+
