@@ -1,0 +1,2911 @@
+Started GET "/" for 127.0.0.1 at 2018-12-12 19:55:39 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (26.7ms)
+Completed 200 OK in 173ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/icibsec/index" for 127.0.0.1 at 2018-12-12 19:55:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/icibsec/index"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/cibsec/index" for 127.0.0.1 at 2018-12-12 19:56:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/cibsec/index"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/cibersec/index" for 127.0.0.1 at 2018-12-12 19:56:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/cibersec/index"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 19:56:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2551ms (Views: 2535.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:04:39 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `txt' for #<CiberSecController:0x000000000f6c81f8>):
+  
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:05:01 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EINVAL (Invalid argument @ rb_sysopen - D:ISCTEÅ8_2019SICOails_projsico):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:05:51 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /ico/data):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:06:23 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - D:/ISCTE/2018_2019/1S/ICO/rails_projs/ico/data):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:06:43 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - data):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:07:02 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:35 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:35 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:42 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:49 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:52 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:07:56 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:09 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:11 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:17 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:29 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:49 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:50 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:08:57 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:09:02 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:09:09 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:09:16 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:09:18 +0000
+Started PUT "/__web_console/repl_sessions/129c4c62eba3ed0d94a6be8eb0013c5e" for 127.0.0.1 at 2018-12-12 20:09:24 +0000
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:10:55 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `data' for #<CiberSecController:0x000000000eb41000>
+Did you mean?  @data):
+  
+app/controllers/ciber_sec_controller.rb:4:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:11:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 471ms (Views: 455.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:13:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 118ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:13:38 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:16:54 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:17:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:17:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:17:51 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 118ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:19:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:20:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:20:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:21:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 445ms (Views: 430.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:21:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:25:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:26:07 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `array' for #<CiberSecController:0x000000000d4aea68>
+Did you mean?  arrays
+               Array):
+  
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:26:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 126ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:28:50 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:29:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 112ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:29:57 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_a' for "01010101010101010101":String
+Did you mean?  to_c
+               to_r
+               to_s
+               to_d
+               to_f
+               to_i):
+  
+app/controllers/ciber_sec_controller.rb:5:in `block in index'
+app/controllers/ciber_sec_controller.rb:5:in `each'
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-12-12 20:59:34 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (144.2ms)
+Completed 200 OK in 1179ms (Views: 742.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 20:59:44 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_a' for "01010101010101010101":String
+Did you mean?  to_c
+               to_r
+               to_s
+               to_d
+               to_f
+               to_i):
+  
+app/controllers/ciber_sec_controller.rb:5:in `block in index'
+app/controllers/ciber_sec_controller.rb:5:in `each'
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:00:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14215ms (Views: 14105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:01:18 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `array' for #<CiberSecController:0x000000000a5ee958>
+Did you mean?  arrays
+               Array):
+  
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:01:35 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 188ms (Views: 168.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:02:13 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:03:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:04:59 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:05:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 114ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:06:24 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `finarrays' for #<CiberSecController:0x000000000d392080>
+Did you mean?  arrays):
+  
+app/controllers/ciber_sec_controller.rb:8:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:10:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:12:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 113ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:13:56 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_i' for ["01010101010101010101"]:Array
+Did you mean?  to_h
+               to_s
+               to_a):
+  
+app/controllers/ciber_sec_controller.rb:6:in `block (2 levels) in index'
+app/controllers/ciber_sec_controller.rb:6:in `map'
+app/controllers/ciber_sec_controller.rb:6:in `block in index'
+app/controllers/ciber_sec_controller.rb:6:in `map'
+app/controllers/ciber_sec_controller.rb:6:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:14:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:16:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:21:18 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `arrays' for #<CiberSecController:0x000000000e402938>
+Did you mean?  Array):
+  
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:21:54 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `arrays' for #<CiberSecController:0x000000000d18d1e0>
+Did you mean?  Array):
+  
+app/controllers/ciber_sec_controller.rb:6:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:22:49 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_a' for "01010101010101010101":String
+Did you mean?  to_c
+               to_r
+               to_s
+               to_d
+               to_f
+               to_i):
+  
+app/controllers/ciber_sec_controller.rb:5:in `block in index'
+app/controllers/ciber_sec_controller.rb:5:in `map'
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:25:05 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_i' for ["01010101010101010101"]:Array
+Did you mean?  to_h
+               to_s
+               to_a):
+  
+app/controllers/ciber_sec_controller.rb:5:in `block in index'
+app/controllers/ciber_sec_controller.rb:5:in `map'
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:28:55 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_i' for ["01010101010101010101"]:Array
+Did you mean?  to_h
+               to_s
+               to_a):
+  
+app/controllers/ciber_sec_controller.rb:5:in `block in index'
+app/controllers/ciber_sec_controller.rb:5:in `map'
+app/controllers/ciber_sec_controller.rb:5:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:29:47 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_i' for ["01010101010101010101"]:Array
+Did you mean?  to_h
+               to_s
+               to_a):
+  
+app/controllers/ciber_sec_controller.rb:6:in `block in index'
+app/controllers/ciber_sec_controller.rb:6:in `map'
+app/controllers/ciber_sec_controller.rb:6:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:30:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:32:08 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:32:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 112ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:33:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:34:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:35:01 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:35:40 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 119ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:39:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 113ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:40:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:43:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 127ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:43:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:44:38 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `asda' for #<CiberSecController:0x000000000c9e43f8>):
+  
+app/controllers/ciber_sec_controller.rb:8:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:45:41 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `asda' for #<CiberSecController:0x00000000098fe7c0>):
+  
+app/controllers/ciber_sec_controller.rb:8:in `index'
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:45:58 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:45:58 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:13 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:18 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:27 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:32 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:47 +0000
+Started PUT "/__web_console/repl_sessions/c83236da540fbec80dd5c1e595f4c0db" for 127.0.0.1 at 2018-12-12 21:46:54 +0000
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:47:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 393ms (Views: 375.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:50:11 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `final_a' for #<CiberSecController:0x000000000d159340>):
+  
+app/controllers/ciber_sec_controller.rb:6:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:50:42 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1158ms (Views: 1143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:51:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 456ms (Views: 438.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:53:42 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 541ms (Views: 525.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:54:53 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 555ms (Views: 539.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 21:59:58 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 452ms (Views: 437.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:01:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 514ms (Views: 499.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:01:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 483ms (Views: 468.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:02:35 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 556ms (Views: 541.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:10:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 508ms (Views: 493.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:21:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 552ms (Views: 536.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:29:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 593ms (Views: 578.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:31:26 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 565ms (Views: 550.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:33:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 572ms (Views: 557.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:34:02 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 643ms (Views: 627.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:43:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 605ms (Views: 589.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:44:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 618ms (Views: 603.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:48:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 614ms (Views: 599.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:51:23 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 612ms (Views: 597.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:52:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 633ms (Views: 618.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:53:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 638ms (Views: 623.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:55:55 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 688ms (Views: 672.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 22:56:39 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 657ms (Views: 642.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:04:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 628ms (Views: 613.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:05:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 668ms (Views: 654.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:06:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 648ms (Views: 634.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:06:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 696ms (Views: 681.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:06:47 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 109ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:09:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 669ms (Views: 653.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:10:00 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 698ms (Views: 682.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:12:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 691ms (Views: 674.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:14:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 701ms (Views: 686.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:15:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 695ms (Views: 680.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:16:31 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 120ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:17:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 123ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:18:38 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 715ms (Views: 700.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:19:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 684ms (Views: 667.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:20:47 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 904ms (Views: 889.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:21:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 674ms (Views: 657.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:22:11 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 707ms (Views: 692.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:23:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 674ms (Views: 659.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:24:42 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 851ms (Views: 836.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:25:11 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 744ms (Views: 728.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:25:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 641ms (Views: 626.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:26:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 647ms (Views: 632.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:27:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 635ms (Views: 620.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:31:26 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:32:55 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 693ms (Views: 678.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:34:35 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 717ms (Views: 702.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:36:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 713ms (Views: 697.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:38:04 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 695ms (Views: 680.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:39:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 696ms (Views: 680.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:40:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 704ms (Views: 689.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:44:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 669ms (Views: 653.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:46:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 944ms (Views: 928.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:47:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 710ms (Views: 694.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:48:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 699ms (Views: 684.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:51:10 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 746ms (Views: 731.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:51:53 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 742ms (Views: 726.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:52:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 714ms (Views: 698.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-12 23:53:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 706ms (Views: 690.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:50:39 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 1300ms (Views: 1279.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:52:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1471ms (Views: 1455.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:55:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 801ms (Views: 785.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:56:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 132ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:57:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 115ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 19:57:50 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 710ms (Views: 695.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 20:05:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 761ms (Views: 746.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 21:14:01 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 830ms (Views: 812.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 21:15:41 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 838ms (Views: 822.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:05:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (58.8ms)
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (D:/ISCTE/2018_2019/1S/ICO/rails_projs/ico/app/views/ciber_sec/index.html.erb:3: `@}' is not allowed as an instance variable name
+D:/ISCTE/2018_2019/1S/ICO/rails_projs/ico/app/views/ciber_sec/index.html.erb:3: syntax error, unexpected end-of-input
+mponent("CallTables", {data: @}) );
+                              ^):
+  
+app/views/ciber_sec/index.html.erb:3: `@}' is not allowed as an instance variable name
+app/views/ciber_sec/index.html.erb:3: syntax error, unexpected end-of-input
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:06:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (50:11)
+  48 |    * by calling the formula calculation
+  49 |    */
+> 50 |   onChange = (e) => {
+     |            ^
+  51 |     this.setState({ value: e.target.value })
+  52 |     this.display = this.determineDisplay(
+  53 |       { x: this.props.x, y: this.props.y }, e.target.value)):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_100709940'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:09:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (50:11)
+  48 |    * by calling the formula calculation
+  49 |    */
+> 50 |   onChange = (e) => {
+     |            ^
+  51 |     this.setState({ value: e.target.value })
+  52 |     this.display = this.determineDisplay(
+  53 |       { x: this.props.x, y: this.props.y }, e.target.value)):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_110749100'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:10:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (50:11)
+  48 |    * by calling the formula calculation
+  49 |    */
+> 50 |   onChange = (e) => {
+     |            ^
+  51 |     this.setState({ value: e.target.value })
+  52 |     this.display = this.determineDisplay(
+  53 |       { x: this.props.x, y: this.props.y }, e.target.value)):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_38085200'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:11:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (50:11)
+  48 |    * by calling the formula calculation
+  49 |    */
+> 50 |   onChange = () => {
+     |            ^
+  51 |     this.setState({ value: e.target.value })
+  52 |     this.display = this.determineDisplay(
+  53 |       { x: this.props.x, y: this.props.y }, e.target.value)):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_92346500'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:15:56 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (59:20)
+  57 |    * Handle pressing a key when the Cell is an input element
+  58 |    */
+> 59 |   onKeyPressOnInput = (e) => {
+     |                     ^
+  60 |     if (e.key === 'Enter') {
+  61 |       this.hasNewValue(e.target.value)
+  62 |     }):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_101734340'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:16:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (64:20)
+  62 |    * Handle pressing a key when the Cell is an input element
+  63 |    */
+> 64 |   onKeyPressOnInput = (e) => {
+     |                     ^
+  65 |     if (e.key === 'Enter') {
+  66 |       this.hasNewValue(e.target.value)
+  67 |     }):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_106240820'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:23:08 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (152:19)
+  150 |   }
+  151 | 
+> 152 |   determineDisplay = ({ x, y }, value) => {
+      |                    ^
+  153 |     return value
+  154 |   }
+  155 | ):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_107041400'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:23:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unterminated string constant (175:18)
+  173 |       lineHeight: '15px',
+  174 |       overflow: 'hidden',
+> 175 |       fontFamily: 'Calibri, \'Segoe UI\', Thonburi,
+      |                   ^
+  176 |         Arial, Verdana, sans-serif',
+  177 |     }
+  178 | ):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_96674180'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:24:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 650ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (9:22)
+   7 |     }
+   8 | 
+>  9 |     handleChangedCell = ({ x, y }, value) => {
+     |                       ^
+  10 | 			const modifiedData = Object.assign({}, this.state.data)
+  11 | 			if (!modifiedData[y]) modifiedData[y] = {}
+  12 | 			modifiedData[y][x] = value):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_63334140'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:25:02 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 207ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (9:22)
+   7 |     }
+   8 | 
+>  9 |     handleChangedCell = ({ x, y }, value) => {
+     |                       ^
+  10 | 			const modifiedData = Object.assign({}, this.state.data)
+  11 | 			if (!modifiedData[y]) modifiedData[y] = {}
+  12 | 			modifiedData[y][x] = value):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_67375820'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:25:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (16:14)
+  14 |   }
+  15 | 
+> 16 |   updateCells = () => {
+     |               ^
+  17 |     this.forceUpdate()
+  18 |   }
+  19 | ):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_99323140'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:25:51 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 595ms (Views: 580.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:26:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:28:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 314ms (Views: 299.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:32:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 781ms (Views: 766.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:34:11 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 831ms (Views: 816.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:34:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:34:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:34:59 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:36:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 744ms (Views: 729.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:37:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:38:10 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 784ms (Views: 769.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:38:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 167ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:38:51 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 773ms (Views: 758.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:39:21 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:39:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:40:21 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 133ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:44:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 726ms (Views: 711.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:45:58 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 174ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:53:02 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (4:8)
+  2 | 
+  3 |   // const RowTeste = (props) => {
+> 4 |   const cells = []
+    |         ^
+  5 |   const y = props.y
+  6 |   for (let x = 0; x < props.x; x += 1) {
+  7 |     cells.push():
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_128915520'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:53:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (4:8)
+  2 | 
+  3 |   // const RowTeste = (props) => {
+> 4 |   const cells = []
+    |         ^
+  5 |   const y = props.y
+  6 |   for (let x = 0; x < props.x; x += 1) {
+  7 |     cells.push():
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_141614640'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:54:07 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 544ms (Views: 529.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:54:49 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 598ms (Views: 583.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:56:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 545ms (Views: 530.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:56:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 583ms (Views: 568.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:56:47 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:58:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 203ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (5:14)
+  3 |     super(props)	
+  4 |     this.state = {
+> 5 |       data: {0},
+    |               ^
+  6 |     }
+  7 |   }
+  8 | ):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_53172600'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-13 23:59:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:00:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 594ms (Views: 579.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:15:31 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1093ms (Views: 1077.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:18:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 599ms (Views: 584.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:24:26 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 899ms (Views: 883.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:27:47 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (11:50)
+   9 |   handleChangedCell({ x, y }, value) {
+  10 |     const modifiedData = Object.assign({}, this.state.data);
+> 11 |     console.log(Object.assign({}, this.state.data););
+     |                                                   ^
+  12 |     if (!modifiedData[y]) modifiedData[y] = {}
+  13 |     modifiedData[y][x] = value
+  14 |     this.setState({ data: modifiedData });):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__215498409_151180800'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:28:23 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 570ms (Views: 554.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:29:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 592ms (Views: 577.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:29:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:30:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 580ms (Views: 565.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:33:41 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 588ms (Views: 572.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:34:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 648ms (Views: 633.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:34:47 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 622ms (Views: 607.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:35:40 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 620ms (Views: 604.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:37:07 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 625ms (Views: 610.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:40:10 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 583ms (Views: 567.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:41:16 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 638ms (Views: 623.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:41:55 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 590ms (Views: 575.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 00:43:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 615ms (Views: 600.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-14 17:15:50 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/edirm/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/edirm/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 19ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:15:59 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - D:/ISCTE/2018_2019/1S/ICO/rails_projs/ico/data.txt):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:19:47 +0000
+Processing by CiberSecController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /data.txt):
+  
+app/controllers/ciber_sec_controller.rb:3:in `read'
+app/controllers/ciber_sec_controller.rb:3:in `index'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:19:53 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3677ms (Views: 3672.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:44:00 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (13:20)
+  11 |   }
+  12 | //{ x, y }, value
+> 13 |   handleChangedCell(this, x, y) {
+     |                     ^
+  14 |     console.log("dasdasd");
+  15 |     const modifiedData = Object.assign({}, this.state.data);
+  16 |     console.log("asasd", Object.assign({}, this.state.data));):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3627297557484526370_69860815007920'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:44:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 579ms (Views: 577.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:44:46 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:48:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (64:4)
+  62 |   updteCalculation() {
+  63 |     var sumt1Col1 = this.state.t1l1c1 + this.state.t1l2c1 + this.state.t1l3c1,
+> 64 |     var sumt1Col2 = this.state.t1l1c2 + this.state.t1l2c2 + this.state.t1l3c2,
+     |     ^
+  65 |     var sumt1Col3 = this.state.t1l1c3 + this.state.t1l2c3 + this.state.t1l3c2
+  66 | 
+  67 |     ):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3627297557484526370_69860744178620'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:48:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 801ms (Views: 799.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:49:08 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 56ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:49:21 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 553ms (Views: 550.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:50:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 536ms (Views: 533.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:52:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 516ms (Views: 514.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:53:01 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 576ms (Views: 573.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:54:21 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/edirm/Downloads/i1co/app/views/ciber_sec/index.html.erb:3: syntax error, unexpected '}', expecting =>
+...omponent("TableTeste", x = { 4} y = { 4}) );
+...                               ^
+/home/edirm/Downloads/i1co/app/views/ciber_sec/index.html.erb:3: syntax error, unexpected '}', expecting =>
+..."TableTeste", x = { 4} y = { 4}) );
+...                               ^
+/home/edirm/Downloads/i1co/app/views/ciber_sec/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+/home/edirm/Downloads/i1co/app/views/ciber_sec/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/ciber_sec/index.html.erb:3: syntax error, unexpected '}', expecting =>
+app/views/ciber_sec/index.html.erb:3: syntax error, unexpected '}', expecting =>
+app/views/ciber_sec/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/ciber_sec/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:56:08 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 228ms (Views: 226.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:56:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 234ms (Views: 230.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:56:36 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 534ms (Views: 530.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 17:59:17 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (9:20)
+   7 |   }
+   8 | //{ x, y }, value
+>  9 |   handleChangedCell = ({ x, y }, value) => {
+     |                     ^
+  10 |     const modifiedData = Object.assign({}, this.state.data)
+  11 |     if (!modifiedData[y]) modifiedData[y] = {}
+  12 |     modifiedData[y][x] = value):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3627297557484526370_46972190051540'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:00:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 553ms (Views: 551.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:00:59 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:05:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 842ms (Views: 840.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:13:38 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1135ms (Views: 1132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:14:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 544ms (Views: 541.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:17:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 757ms (Views: 754.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:25:07 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 908ms (Views: 906.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:27:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 580ms (Views: 576.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:28:12 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 575ms (Views: 572.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:28:59 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 600ms (Views: 597.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:29:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 685ms (Views: 683.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:32:57 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 579ms (Views: 576.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:34:04 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 581ms (Views: 578.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:34:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 566ms (Views: 561.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:35:10 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 292ms (Views: 286.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:35:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 268ms (Views: 259.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:35:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 110ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:35:35 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:36:02 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 300ms (Views: 297.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:38:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 881ms (Views: 879.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:38:31 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 565ms (Views: 563.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:39:05 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 612ms (Views: 609.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:39:50 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 547ms (Views: 545.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:40:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 638ms (Views: 633.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:40:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 609ms (Views: 607.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:41:23 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 713ms (Views: 711.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:41:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 561ms (Views: 559.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:41:59 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 589ms (Views: 587.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:42:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 575ms (Views: 573.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:43:02 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:43:20 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 597ms (Views: 594.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:43:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 625ms (Views: 621.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:43:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 48ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 18:43:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 554ms (Views: 553.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 19:27:40 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (112:13)
+  110 |         break;
+  111 |       default:
+> 112 |         code block
+      |              ^
+  113 |     }
+  114 |   }
+  115 |   render() {):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__3627297557484526370_69860748102720'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-14 19:27:53 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 915ms (Views: 912.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:21:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3561ms (Views: 3539.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:29:33 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 790ms (Views: 773.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:30:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 802ms (Views: 785.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:32:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 771ms (Views: 753.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:48:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 776ms (Views: 759.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 15:51:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 808ms (Views: 791.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:06:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 793ms (Views: 775.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:07:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 782ms (Views: 766.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:08:04 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 795ms (Views: 778.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:08:43 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 793ms (Views: 777.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:09:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 776ms (Views: 759.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:12:40 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 833ms (Views: 816.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:13:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:15:26 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 816ms (Views: 798.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:23:00 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (53:72)
+  51 |     var calcCol2 = parseInt(document.getElementById(this.props.tableName + "B1").innerText +
+  52 |     parseInt(document.getElementById(this.props.tableName + "B2").value) +
+> 53 |     parseInt(document.getElementById(this.props.tableName + "B3").value);
+     |                                                                         ^
+  54 |     console.log("calcCol2", calcCol2);
+  55 |     
+  56 |     var calcCol3 = parseInt(document.getElementById(this.props.tableName + "C1").value) +):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__750645919_129113620'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:23:54 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 802ms (Views: 785.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:26:55 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 866ms (Views: 849.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:28:38 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 834ms (Views: 817.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:30:21 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 866ms (Views: 850.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:32:46 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 875ms (Views: 858.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:36:39 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:37:01 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 890ms (Views: 872.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:39:16 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 861ms (Views: 844.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:42:16 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 874ms (Views: 856.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:42:46 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 870ms (Views: 853.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:47:39 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 891ms (Views: 874.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:48:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 888ms (Views: 871.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:50:14 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:50:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 859ms (Views: 842.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:55:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 887ms (Views: 870.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 17:58:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 942ms (Views: 925.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 18:40:49 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 898ms (Views: 882.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 18:41:30 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 915ms (Views: 898.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 18:44:13 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 873ms (Views: 856.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 18:46:54 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 907ms (Views: 890.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 19:00:13 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 936ms (Views: 919.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 19:01:39 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 897ms (Views: 880.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 19:06:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 911ms (Views: 893.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 19:08:45 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 918ms (Views: 901.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 20:42:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 544ms (Views: 526.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 20:43:04 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 446ms (Views: 429.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:35:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1199ms (Views: 1179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:39:41 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 952ms (Views: 935.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:40:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 924ms (Views: 906.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:52:14 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (53:4)
+  51 |       });
+  52 |     }
+> 53 |     var A1 = parseFloat(document.getElementById(this.props.tableName + "A1").value);
+     |     ^
+  54 |     var A2 = parseFloat(document.getElementById(this.props.tableName + "A2").value);
+  55 |     var A3 = parseFloat(document.getElementById(this.props.tableName + "A3").value);
+  56 |     var B1 = parseFloat(document.getElementById(this.props.tableName + "B1").value);):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__750645919_128852200'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:53:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 988ms (Views: 971.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:55:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 972ms (Views: 956.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-16 21:56:26 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 938ms (Views: 921.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:29:49 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1001ms (Views: 984.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:31:22 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 978ms (Views: 962.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:32:18 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 943ms (Views: 926.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:33:49 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1031ms (Views: 1014.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:34:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 959ms (Views: 942.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:34:42 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 950ms (Views: 933.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:35:35 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 992ms (Views: 975.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:36:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1050ms (Views: 1033.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:38:01 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1026ms (Views: 1008.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:39:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1015ms (Views: 998.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:40:38 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 994ms (Views: 977.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:41:48 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 987ms (Views: 970.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:43:10 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 996ms (Views: 979.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:48:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 985ms (Views: 968.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:49:27 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1004ms (Views: 987.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:50:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 178ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (46:15)
+  44 |     })();
+  45 |   }
+> 46 |   calculations(this, tableName) {
+     |                ^
+  47 |     var comp = this;
+  48 |     var INPUTS = [].slice.call(document.querySelectorAll("input."+ this.props.tableName));
+  49 |     console.log("calculations");):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__750645919_129719100'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:51:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (46:15)
+  44 |     })();
+  45 |   }
+> 46 |   calculations(this) {
+     |                ^
+  47 |     var comp = this;
+  48 |     var INPUTS = [].slice.call(document.querySelectorAll("input."+ this.props.tableName));
+  49 |     console.log("calculations");):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__750645919_132204120'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:51:46 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (unknown: Unexpected token (46:15)
+  44 |     })();
+  45 |   }
+> 46 |   calculations(this) {
+     |                ^
+  47 |     var comp = this;
+  48 |     var INPUTS = [].slice.call(document.querySelectorAll("input."+ this.props.tableName));
+  49 |     console.log("calculations");):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+(execjs):1
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__750645919_87739700'
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:52:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 991ms (Views: 975.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:52:51 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1009ms (Views: 992.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 01:54:34 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 969ms (Views: 952.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-17 19:48:20 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (59.5ms)
+Completed 200 OK in 261ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-17 19:48:28 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1609ms (Views: 1592.6ms | ActiveRecord: 0.0ms)
+
+
