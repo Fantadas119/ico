@@ -24,7 +24,7 @@ class Main extends React.Component {
         <div><TableTeste1 x={4} y={4} tableName="criterioP" /></div>
         <br></br>
         <p></p>
-        <div><TableTeste1 x={4} y={4} tableName="criterioS1" /></div>
+        <div><TableTeste2 x={5} y={5} tableName="criterioS1" /></div>
       </div>
     );
   }

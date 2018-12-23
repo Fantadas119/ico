@@ -16,7 +16,18 @@
       var row = document.querySelector("table").insertRow(-1);
       for (var j = 0; j < this.props.y; j++) {
         var letter = String.fromCharCode("A".charCodeAt(0) + j - 1);
-        row.insertCell(-1).innerHTML = i && j ? "<input class='" + this.props.tableName + "' id='" + this.props.tableName + letter + i + "'/>" : i || letter;
+        if((i == 0 && j== 1) || (i == 1 && j==0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "C.Capital";
+        } else if((i == 0 && j== 2) || (i == 2 && j==0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "C.Formação";
+        } else if((i == 0 && j== 3) || (i == 3 && j== 0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "C.Operação";
+        } else if((i == 0 && j== 4) || (i == 4 && j== 0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "C.Pessoal";
+        }else {
+          row.insertCell(-1).innerHTML = i && j ? "<input class='" + this.props.tableName + "' id='" + this.props.tableName + letter + i + "'/>" : i || letter;
+        }
+
       }
     }
 
@@ -57,12 +68,19 @@
     var A1 = parseFloat(document.getElementById(this.props.tableName + "A1").value);
     var A2 = parseFloat(document.getElementById(this.props.tableName + "A2").value);
     var A3 = parseFloat(document.getElementById(this.props.tableName + "A3").value);
+    var A4 = parseFloat(document.getElementById(this.props.tableName + "A4").value);
     var B1 = parseFloat(document.getElementById(this.props.tableName + "B1").value);
     var B2 = parseFloat(document.getElementById(this.props.tableName + "B2").value);
     var B3 = parseFloat(document.getElementById(this.props.tableName + "B3").value);
+    var B4 = parseFloat(document.getElementById(this.props.tableName + "B4").value);
     var C1 = parseFloat(document.getElementById(this.props.tableName + "C1").value);
     var C2 = parseFloat(document.getElementById(this.props.tableName + "C2").value);
     var C3 = parseFloat(document.getElementById(this.props.tableName + "C3").value);
+    var C4 = parseFloat(document.getElementById(this.props.tableName + "C4").value);
+    var D1 = parseFloat(document.getElementById(this.props.tableName + "C1").value);
+    var D2 = parseFloat(document.getElementById(this.props.tableName + "C2").value);
+    var D3 = parseFloat(document.getElementById(this.props.tableName + "C3").value);
+    var D4 = parseFloat(document.getElementById(this.props.tableName + "C4").value);
 
     // Ponto 2 Matriz de comparação par a par dos critérios:
     var dynamicVar = new Object;
@@ -80,13 +98,15 @@
       
     }
     console.log("dynamicVar", dynamicVar);
-    var calcCol1 = A1 + A2 + A3;
+    var calcCol1 = A1 + A2 + A3 + A4;
     console.log("calcCol1",calcCol1);
     
-    var calcCol2 = B1 + B2 + B3;
+    var calcCol2 = B1 + B2 + B3 + B4;
     console.log("calcCol2", calcCol2);
     
-    var calcCol3 = C1 + C2 + C3;
+    var calcCol3 = C1 + C2 + C3 + C4;
+
+    var calcCol4 = D1 + D2 + D3 + D4;
     console.log("calcCol3", calcCol3);
 
 
@@ -95,36 +115,47 @@
     var normA1 = A1 / calcCol1;
     var normA2 = A2 / calcCol1;
     var normA3 = A3 / calcCol1;
+    var normA4 = A4 / calcCol1;
     var normB1 = B1 / calcCol2;
     var normB2 = B2 / calcCol2;
     var normB3 = B3 / calcCol2;
+    var normB4 = B4 / calcCol2;
     var normC1 = C1 / calcCol3;
     var normC2 = C2 / calcCol3;
     var normC3 = C3 / calcCol3;
+    var normC4 = C4 / calcCol3;
+    var normD1 = D1 / calcCol4;
+    var normD2 = D2 / calcCol4;
+    var normD3 = D3 / calcCol4;
+    var normD4 = D4 / calcCol4;
 
     // 3.2 Validadar colunas
-    var sumNormCol1 = normA1 + normA2 + normA3;
+    var sumNormCol1 = normA1 + normA2 + normA3 + normA4;
     console.log("sumNormCol1", sumNormCol1);
-    var sumNormCol2 = normB1 + normB2 + normB3;
+    var sumNormCol2 = normB1 + normB2 + normB3 + normB4;
     console.log("sumNormCol2", sumNormCol2);
-    var sumNormCol3 = normC1 + normC2 + normC3;
+    var sumNormCol3 = normC1 + normC2 + normC3 + normC4;
+
+    var sumNormCol4 = normD1 + normD2 + normD3 + normD4;
     console.log("sumNormCol3", sumNormCol1);
 
-    if ((sumNormCol1 != 1) || (sumNormCol1 != 1) || (sumNormCol1 != 1)) {
+    if ((sumNormCol1 != 1) || (sumNormCol2 != 1) || (sumNormCol3 != 1) || (sumNormCol4 != 1)) {
       this.setState({
         [this.props.tableName + "Error"]: "Soma da coluna de valores normalizados é diferente de 1"
       });
     }
     // ponto 4
-    var normLinha1 = normA1 + normB1 + normC1;
-    var normLinha2 = normA2 + normB2 + normC2;
-    var normLinha3 = normA3 + normB3 + normC3;
+    var normLinha1 = normA1 + normB1 + normC1 + normC1;
+    var normLinha2 = normA2 + normB2 + normC2 + normD2;
+    var normLinha3 = normA3 + normB3 + normC3 + normD3;
+    var normLinha4 = normA4 + normB4 + normC4 + normD4;
     console.log("normLinha1", normLinha1);
     console.log("normLinha2", normLinha2);
     console.log("normLinha3", normLinha3);
 
     // ponto 5
-    var ponto5 = Math.round(normLinha1 + normLinha2 + normLinha3);
+    var ponto5 = Math.round(normLinha1 + normLinha2 + normLinha3 + normLinha4);
+    var ponto5 = Math.round(normLinha1 + normLinha2 + normLinha3 + normLinha4);
     if(ponto5 != (this.props.x -1)) {
       this.setState({
         [this.props.tableName + "Error"]: "Soma das linha de valores normalizados é diferente de n da matriz"
@@ -137,11 +168,13 @@
     var vectNormlinha2 = normLinha2/ponto5;
     console.log("vectNormlinha2", vectNormlinha2);
     var vectNormlinha3 = normLinha3/ponto5;
+
+    var vectNormlinha4 = normLinha4/ponto5;
     console.log("vectNormlinha3", vectNormlinha3);
 
 
    
-    var lamba = ((vectNormlinha1 * calcCol1) + (vectNormlinha2 * calcCol2) + (vectNormlinha3 * calcCol3));
+    var lamba = ((vectNormlinha1 * calcCol1) + (vectNormlinha2 * calcCol2) + (vectNormlinha3 * calcCol3) + (vectNormlinha4 * calcCol4));
     console.log("lamba", lamba);
     var varlambaN = lamba - ponto5;
     console.log("varlambaN", varlambaN);

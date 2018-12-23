@@ -16,7 +16,15 @@
       var row = document.querySelector("table").insertRow(-1);
       for (var j = 0; j < this.props.y; j++) {
         var letter = String.fromCharCode("A".charCodeAt(0) + j - 1);
-        row.insertCell(-1).innerHTML = i && j ? "<input class='" + this.props.tableName + "' id='" + this.props.tableName + letter + i + "'/>" : i || letter;
+        if((i == 0 && j== 1) || (i == 1 && j==0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "Custo";
+        } else if((i == 0 && j== 2) || (i == 2 && j==0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "Risco";
+        } else if((i == 0 && j== 3) || (i == 3 && j== 0)) {
+          row.insertCell(-1).innerHTML = i && j ? "<input/>" : "Similaridade";
+        }else {
+          row.insertCell(-1).innerHTML = i && j ? "<input class='" + this.props.tableName + "' id='" + this.props.tableName + letter + i + "'/>" : i || letter;
+        }
       }
     }
 

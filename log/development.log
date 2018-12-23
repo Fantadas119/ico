@@ -2916,3 +2916,176 @@ Processing by CiberSecController#index as HTML
 Completed 200 OK in 3959ms (Views: 3938.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 20:43:06 +0000
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with 'primary' found.):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1009:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/__web_console/repl_sessions/14cba945b80f171f18af791d0a472742/trace" for 127.0.0.1 at 2018-12-18 20:43:29 +0000
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 20:44:09 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3729ms (Views: 3708.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 20:45:07 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 555ms (Views: 539.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 21:25:24 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (112.3ms)
+Completed 200 OK in 10894ms (Views: 10815.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:04:32 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 155ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:06:15 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 134ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:11:00 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1737ms (Views: 1718.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:16:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1097ms (Views: 1078.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:18:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1168ms (Views: 1149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:20:19 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1225ms (Views: 1205.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:22:06 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:39:44 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1084ms (Views: 1065.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:40:41 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1074ms (Views: 1054.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-18 22:44:00 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1083ms (Views: 1064.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:18:29 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 3579ms (Views: 3555.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:20:03 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 141ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:27:52 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1759ms (Views: 1741.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:28:25 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1080ms (Views: 1063.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:28:41 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1105ms (Views: 1087.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ciber_sec/index" for 127.0.0.1 at 2018-12-23 19:32:37 +0000
+Processing by CiberSecController#index as HTML
+  Rendering ciber_sec/index.html.erb within layouts/application
+  Rendered ciber_sec/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 236ms (Views: 218.1ms | ActiveRecord: 0.0ms)
+
+
