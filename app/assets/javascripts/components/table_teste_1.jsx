@@ -53,15 +53,12 @@
   calculations() {
     var comp = this;
     var INPUTS = [].slice.call(document.querySelectorAll("input."+ this.props.tableName));
-    console.log("calculations");
     var comp = this;
     INPUTS.forEach(function (elm) {
-      console.log("elm", elm);
       comp.setState({
         [elm.id]: parseFloat(elm.value)
       });  
     });
-    console.log("tableName", comp.props.tableName);
     var A1 = parseFloat(document.getElementById(this.props.tableName + "A1").value);
     var A2 = parseFloat(document.getElementById(this.props.tableName + "A2").value);
     var A3 = parseFloat(document.getElementById(this.props.tableName + "A3").value);
@@ -79,25 +76,13 @@
         // ver s A=65 ansci code ou assim,B=
         // para o A == String.fromCharCode(indexL +64)
         var numberToLetter = String.fromCharCode(indexL + 64);
-        console.log("numberToLetter", numberToLetter);
-        console.log("state", comp.state);
-        console.log("strinf state", comp.props.tableName+numberToLetter+indexC);
-        /* const [calcCol + indexL]  += comp.state[numberToLetter+indexC] ; */
         dynamicVar["calCol"+indexL] += comp.state[comp.props.tableName+numberToLetter+indexC] ;
       }
-      
     }
-    console.log("dynamicVar", dynamicVar);
+
     var calcCol1 = A1 + A2 + A3;
-    console.log("calcCol1",calcCol1);
-    
     var calcCol2 = B1 + B2 + B3;
-    console.log("calcCol2", calcCol2);
-    
     var calcCol3 = C1 + C2 + C3;
-    console.log("calcCol3", calcCol3);
-
-
 
     // 3)Normalizacao dos valores
     var normA1 = A1 / calcCol1;
@@ -112,11 +97,8 @@
 
     // 3.2 Validadar colunas
     var sumNormCol1 = normA1 + normA2 + normA3;
-    console.log("sumNormCol1", sumNormCol1);
     var sumNormCol2 = normB1 + normB2 + normB3;
-    console.log("sumNormCol2", sumNormCol2);
     var sumNormCol3 = normC1 + normC2 + normC3;
-    console.log("sumNormCol3", sumNormCol1);
 
     if ((sumNormCol1 != 1) || (sumNormCol1 != 1) || (sumNormCol1 != 1)) {
       this.setState({
@@ -127,9 +109,6 @@
     var normLinha1 = normA1 + normB1 + normC1;
     var normLinha2 = normA2 + normB2 + normC2;
     var normLinha3 = normA3 + normB3 + normC3;
-    console.log("normLinha1", normLinha1);
-    console.log("normLinha2", normLinha2);
-    console.log("normLinha3", normLinha3);
 
     // ponto 5
     var ponto5 = Math.round(normLinha1 + normLinha2 + normLinha3);
@@ -141,23 +120,13 @@
 
     // ponto 6
     var vectNormlinha1 = normLinha1/ponto5;
-    console.log("vectNormlinha1", vectNormlinha1);
     var vectNormlinha2 = normLinha2/ponto5;
-    console.log("vectNormlinha2", vectNormlinha2);
     var vectNormlinha3 = normLinha3/ponto5;
-    console.log("vectNormlinha3", vectNormlinha3);
-
-
-   
     var lamba = ((vectNormlinha1 * calcCol1) + (vectNormlinha2 * calcCol2) + (vectNormlinha3 * calcCol3));
-    console.log("lamba", lamba);
     var varlambaN = lamba - ponto5;
-    console.log("varlambaN", varlambaN);
     var ic = varlambaN/(this.props.x - 2);
-    console.log("ic", ic);
     var rc = ic/this.getIr(this.props.x - 1);
-    console.log("IR for x->3",this.getIr(this.props.x - 1));
-    console.log("rc", rc);
+
     if (rc > 0.1) {8
       this.setState({
         [this.props.tableName + "Error"]: "RC inconsistente",
@@ -197,11 +166,9 @@
   }
 
   handleClick(tableName) {
-    console.log("handleClick");
     this.calculations(tableName);
   }
   handleChange() {
-    console.log("handleChange");
     this.calculations();
   }
   render() {
@@ -211,9 +178,6 @@
         <button onClick={this.handleClick}>validate</button>
         <div>{this.state[this.props.tableName + "Error"]}</div>
         <div>{this.state[this.props.tableName + "Success"]}</div>
-        {/* <div id={this.props.tableName + "calc"}> *
-          {this.calculations}
-        </div>*/}
       </div>
     );
   }
