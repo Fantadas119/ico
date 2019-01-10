@@ -2,3 +2,5 @@
 log/development\.log
 
 log/
+
+tmp/cache/
